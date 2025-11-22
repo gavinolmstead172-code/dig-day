@@ -1,0 +1,89 @@
+63f7b34db8d8cdea90c76aacccf841ec
+::res://::1763785018
+export_presets.cfg::TextFile::-1::1763779447::0::1::::<><><>0<>0<><>::
+::res://assets/::1763781920
+::res://assets/sound effects/::1763781920
+Bite.wav::AudioStreamWAV::2243963139472419897::1763771171::1763771172::1::::<><><>0<>0<>fca7c0a63022c573b8427cb26d7c0748<>res://.godot/imported/Bite.wav-8e7d15294eb0962c9614934da45791af.sample::
+Call of Duty Zombies New Round - Sound Effect (HD).mp3::AudioStreamMP3::4813615031407387009::1763603843::1763603844::1::::<><><>0<>0<>98466dabcc92a4a1d0b2422184485ae0<>res://.godot/imported/Call of Duty Zombies New Round - Sound Effect (HD).mp3-0c9f50a1f8eab0878224b1382ab04e9f.mp3str::
+Clang.wav::AudioStreamWAV::7472488864876402146::1763607081::1763607087::1::::<><><>0<>0<>8983e67dd771a68712a0f81652e9727f<>res://.godot/imported/Clang.wav-74ade62ed7e95d8e8b141a9c1518f5b3.sample::
+Cymbal Echo.wav::AudioStreamWAV::6185201394834889070::1763344868::1763511751::1::::<><><>0<>0<>3689be02d9b28ec2f031aabc388587aa<>res://.godot/imported/Cymbal Echo.wav-96d37f3b41f55cbecca812cd1093e470.sample::
+empty ammo.wav::AudioStreamWAV::4633727231142786219::1763607083::1763607090::1::::<><><>0<>0<>c4a3f92d511e0320c5033af79bf99974<>res://.godot/imported/empty ammo.wav-1fd3bf42090eace8cfcf676464a22c3a.sample::
+gun.wav::AudioStreamWAV::4443698112868034673::1763609637::1763609638::1::::<><><>0<>0<>fd9fdbdadc95a50ddd0d2784744bef11<>res://.godot/imported/gun.wav-49839d695a516c6e5a77074db8de91b3.sample::
+hit.wav::AudioStreamWAV::8854940562282937693::1763607099::1763607100::1::::<><><>0<>0<>39f856e66b8396c7f86a3bba3b4cad53<>res://.godot/imported/hit.wav-6d11a785b03a7a43fa634f1274eb7e0d.sample::
+recording2.wav::AudioStreamWAV::3696858837626878026::1763607162::1763607162::1::::<><><>0<>0<>fca78d2929364bb9db6818464d90a41b<>res://.godot/imported/recording2.wav-d0aad947589654abb7d553c4e3e54845.sample::
+::res://assets/textures/::1763781920
+250px-Giant_rat2.svg::CompressedTexture2D::2086356362592446819::1763683942::1763683943::1::::<><><>0<>0<>d6db81723687ca2e1abaf13ef76503d6<>res://.godot/imported/250px-Giant_rat2.svg-a41a5ca05dc4c4635cb18c464c9b698f.ctex::
+Adobe Express - file (1).png::CompressedTexture2D::6951565106856975086::1763325560::1763323521::1::::<><><>0<>0<>2d3bd5f9524507816858583d52ee6eee<>res://.godot/imported/Adobe Express - file (1).png-9a5d43cb1b70b317301a3ded0e4476b2.ctex::
+Adobe Express - file (2).png::CompressedTexture2D::4340623365195189872::1763325546::1763325578::1::::<><><>0<>0<>6ee52f8ad8ed96d25f9932315e4c98bd<>res://.godot/imported/Adobe Express - file (2).png-9af16051192073bba2c4296aa92b6c54.ctex::
+Adobe Express - file (3).png::CompressedTexture2D::6697090688117377617::1763337278::1763337279::1::::<><><>0<>0<>d783ca025d17e3dc5f7601e384f057d1<>res://.godot/imported/Adobe Express - file (3).png-d60b7dccc7396bd7f8616e63d872fb4c.ctex::
+Adobe Express - file (4).png::CompressedTexture2D::5004323681011534955::1763340387::1763340391::1::::<><><>0<>0<>b1e90f473967a692c7c8c225b24efb13<>res://.godot/imported/Adobe Express - file (4).png-3c3c65c3dade475084b1f2ef9994e85f.ctex::
+Adobe Express - file (5).png::CompressedTexture2D::6307993579546678689::1763606242::1763606242::1::::<><><>0<>0<>3e19bcc7e7e0362a8754b5284fd357c3<>res://.godot/imported/Adobe Express - file (5).png-dd0364a4a5cd9042f1a44f82d4606f6f.ctex::
+costume1.png::CompressedTexture2D::4679386628839744165::1763683946::1763683947::1::::<><><>0<>0<>ec63ab32c7e6bf0edadade5e0eb399c9<>res://.godot/imported/costume1.png-cee44ff99e9ebf99747f09444d47c4fb.ctex::
+image_2025-11-16_104009527 (1) (1).png::CompressedTexture2D::8360962458761683671::1763315358::1763315359::1::::<><><>0<>0<>b2b8a7813ceb9ef16045b0ab2c4fdd6c<>res://.godot/imported/image_2025-11-16_104009527 (1) (1).png-4a3db7df635eff2d8aea9cdf9c3134f8.ctex::
+Screenshot 2025-11-16 160030.png::CompressedTexture2D::312178730952987565::1763334069::1763334070::1::::<><><>0<>0<>48f367c5abe008b469ebb0ee6f40abb6<>res://.godot/imported/Screenshot 2025-11-16 160030.png-587872a8c2cc7bf576e476407e717a3d.ctex::
+::res://builds/::1763784336
+Dig Day.apple-touch-icon.png::CompressedTexture2D::8523326395150638957::1763777849::1763775636::1::::<><><>0<>0<>7c386dbcc10b2256b9daac46a03009fb<>res://.godot/imported/Dig Day.apple-touch-icon.png-adb94447e6557e9ec76b626994a4634c.ctex::
+Dig Day.icon.png::CompressedTexture2D::1669206039020439978::1763777849::1763775636::1::::<><><>0<>0<>3d3d091a15e413ade3a57b98edbf4542<>res://.godot/imported/Dig Day.icon.png-d4a1ad95621126171e99345022e3386b.ctex::
+Dig Day.png::CompressedTexture2D::1447026717264440057::1763777849::1763775637::1::::<><><>0<>0<>005b90cc31335b65369573bdf07b1498<>res://.godot/imported/Dig Day.png-9509cf7307be73947218fd87fd9cb7f3.ctex::
+::res://builds/dig day game/::1763784336
+::res://builds/Dig day web/::1763781927
+icon.svg::CompressedTexture2D::3497306817429149799::0::1763775535::1::::<><><>0<>0<>756dc20262e18f8f8c48d2925fe18e97<>res://.godot/imported/icon.svg-e5aca6503e7ca9ab0368c8e179abb867.ctex::
+::res://builds/Dig day web/assets/::1763781927
+::res://builds/Dig day web/assets/sound effects/::1763781927
+::res://builds/Dig day web/assets/textures/::1763781927
+::res://builds/Dig day web/scene/::1763781924
+::res://builds/Dig day web/scripts/::1763781925
+ammo_ui.gdc::GDScript::4592523027111928606::0::0::1::::<>RefCounted<><>0<>0<><>::
+bullet.gdc::GDScript::1716205130676708819::0::0::1::::<>RefCounted<><>0<>0<><>::
+GameOver.gdc::GDScript::6430226919442424041::0::0::1::::<>RefCounted<><>0<>0<><>::
+Global.gdc::GDScript::5262554233468060672::0::0::1::::<>RefCounted<><>0<>0<><>::
+Level1.gdc::GDScript::1026727163473416252::0::0::1::::<>RefCounted<><>0<>0<><>::
+MainMenu.gdc::GDScript::4710692204888531283::0::0::1::::<>RefCounted<><>0<>0<><>::
+PauseMenu.gdc::GDScript::9014640290848101465::0::0::1::::<>RefCounted<><>0<>0<><>::
+player.gdc::GDScript::8638735262869810763::0::0::1::::<>RefCounted<><>0<>0<><>::
+RangedRat.gdc::GDScript::1111544037234096467::0::0::1::::<>RefCounted<><>0<>0<><>::
+Rat.gdc::GDScript::7218669185924344098::0::0::1::::<>RefCounted<><>0<>0<><>::
+RatProjectile.gdc::GDScript::1672547696342009682::0::0::1::::<>RefCounted<><>0<>0<><>::
+shovel.gdc::GDScript::6231599879691162647::0::0::1::::<>RefCounted<><>0<>0<><>::
+WaveManager.gdc::GDScript::6662283531924244153::0::0::1::::<>RefCounted<><>0<>0<><>::
+::res://builds/dig day web crazy/::1763781925
+::res://builds/dig day web crazy/web crazy/::1763781927
+Dig Day.apple-touch-icon.png::CompressedTexture2D::7114498909102237003::1763776310::1763776324::1::::<><><>0<>0<>3b050830981a83c51490370cb97d114d<>res://.godot/imported/Dig Day.apple-touch-icon.png-9ad3c30a42cea08c6aa8766e0d91e5de.ctex::
+Dig Day.icon.png::CompressedTexture2D::5733545985155967360::1763776310::1763776324::1::::<><><>0<>0<>1c86ad530e5219ad32f3436458802747<>res://.godot/imported/Dig Day.icon.png-dcd1fa4a5af25c08d217149ff8f484ce.ctex::
+Dig Day.png::CompressedTexture2D::216108496034341848::1763776310::1763776325::1::::<><><>0<>0<>bb0cf9c205bd852b29ef4d52767a257c<>res://.godot/imported/Dig Day.png-324768b7b103135ac676fde93ece1494.ctex::
+::res://builds/dig day web crazy/web crazy/web final crazy/::1763781927
+::res://builds/fianl pray/::1763782920
+DigDay.apple-touch-icon.png::CompressedTexture2D::5713148056812552111::1763779448::1763781822::1::::<><><>0<>0<>45bec7834feedef4903889af245a5eb7<>res://.godot/imported/DigDay.apple-touch-icon.png-46a97df63586a93984d6727b097608f0.ctex::
+DigDay.icon.png::CompressedTexture2D::8530636361535061009::1763779448::1763780738::1::::<><><>0<>0<>e210929a03ea10b7f25b426adf266511<>res://.godot/imported/DigDay.icon.png-afe21d5e53854cfbb9f6bd93fb7dc634.ctex::
+DigDay.png::CompressedTexture2D::498947156145338110::1763779448::1763780738::1::::<><><>0<>0<>03527a8ac4ebf4b4cdec1f1f738edc5c<>res://.godot/imported/DigDay.png-e319cd09c67945b9ecf38f83814489b8.ctex::
+::res://builds/test/::1763781921
+::res://builds/test 2/::1763781921
+Dig Day.apple-touch-icon.png::CompressedTexture2D::1955578444603614597::1763777227::1763777273::1::::<><><>0<>0<>fa0c7e90f1d8d698ee5033f81110e863<>res://.godot/imported/Dig Day.apple-touch-icon.png-d25091df003b88f6c709924ccd3389f6.ctex::
+Dig Day.icon.png::CompressedTexture2D::2658815063095830720::1763777227::1763777273::1::::<><><>0<>0<>6fae71f002bcf2cfd550b69605e65604<>res://.godot/imported/Dig Day.icon.png-725bbc0f2f3e91e494bed9007d7b417d.ctex::
+Dig Day.png::CompressedTexture2D::1723356871300666700::1763777227::1763777273::1::::<><><>0<>0<>6e456abbacdb362f94160b15fc2bc4ed<>res://.godot/imported/Dig Day.png-0285c0eb615150f8383f30ae94c6c533.ctex::
+::res://scene/::1763781916
+Bullet.tscn::PackedScene::9054498741157080918::1763515475::0::1::::<><><>0<>0<><>::uid://bmccykdvshuoj::::res://scripts/bullet.gd<>uid://b23voye7d54cy::::res://assets/textures/Adobe Express - file (2).png
+GameOver.tscn::PackedScene::370999616786975548::1763773098::0::1::::<><><>0<>0<><>::uid://db4gheho3vfab::::res://scripts/GameOver.gd
+Level 1.tscn::PackedScene::6387082626256134517::1763697470::0::1::::<><><>0<>0<><>::uid://ephskbbt46ur::::res://assets/textures/Screenshot 2025-11-16 160030.png<>uid://c12n00qh06vmv::::res://scripts/WaveManager.gd<>uid://b2fuw3w2owh88::::res://scripts/Level1.gd<>uid://cat0sh7kyy7pd::::res://assets/sound effects/Call of Duty Zombies New Round - Sound Effect (HD).mp3<>uid://d0xcudot4sncl::::res://scene/player_1.tscn<>uid://cb84cy433ehm4::::res://scripts/ammo_ui.gd<>uid://c2oedtt3uvcxt::::res://assets/textures/Adobe Express - file (3).png<>uid://cuefml8j2sd3k::::res://assets/sound effects/Cymbal Echo.wav<>uid://cdjb6y6iacwpq::::res://scene/PauseMenu.tscn
+MainMenu.tscn::PackedScene::7314821899479482149::1763773339::0::1::::<><><>0<>0<><>::uid://b4p3bpiostg2g::::res://scripts/MainMenu.gd
+PauseMenu.tscn::PackedScene::5002104683503583798::1763772964::0::1::::<><><>0<>0<><>::uid://dvdrc2f8s7xc8::::res://scripts/PauseMenu.gd
+player_1.tscn::PackedScene::8961621160337180099::1763772989::0::1::::<><><>0<>0<><>::uid://d2vniia2fjxa6::::res://scripts/player.gd<>uid://dred3hv8gfxpv::::res://assets/textures/image_2025-11-16_104009527 (1) (1).png<>uid://c6bni5q22hp8i::::res://assets/textures/Adobe Express - file (1).png<>uid://b4ktb83u511cv::::res://assets/sound effects/gun.wav<>uid://b7au2s66sco2n::::res://assets/sound effects/empty ammo.wav
+RangedRat.tscn::PackedScene::8834755882428269918::1763695301::0::1::::<><><>0<>0<><>::uid://busdfahqnw21d::::res://scripts/RangedRat.gd<>uid://4yv8qbwukiul::::res://assets/textures/250px-Giant_rat2.svg
+Rat.tscn::PackedScene::203376444382060453::1763771200::0::1::::<><><>0<>0<><>::uid://ctlldvnrdu224::::res://scripts/Rat.gd<>uid://cdkeqk0ofr6ih::::res://assets/textures/Adobe Express - file (4).png<>uid://6780lj3qxqll::::res://assets/sound effects/Bite.wav
+RatProjectile.tscn::PackedScene::1343276617417127998::1763698386::0::1::::<><><>0<>0<><>::uid://ctrncaftexdqe::::res://scripts/RatProjectile.gd<>uid://b7wy2xd1thj2d::::res://assets/textures/costume1.png
+Shovel.tscn::PackedScene::2159795010679964710::1763609667::0::1::::<><><>0<>0<><>::uid://b0ggee0j5y2go::::res://scripts/shovel.gd<>uid://cv4vy56540ig4::::res://assets/textures/Adobe Express - file (5).png<>uid://bsw1ywa7t5xrm::::res://assets/sound effects/recording2.wav<>uid://dyfntvnxjn8b6::::res://assets/sound effects/hit.wav
+ui.tscn::PackedScene::3153732219003679413::1763339169::0::1::::<><><>0<>0<><>::
+::res://scripts/::1763781917
+ammo_ui.gd::GDScript::4912920347955750897::1763330077::0::1::::<>CanvasLayer<><>0<>0<><>::
+bullet.gd::GDScript::3232980386743271021::1763694714::0::1::::<>Area2D<><>0<>0<><>::
+GameOver.gd::GDScript::7289694873680378109::1763772634::0::1::::<>CanvasLayer<><>0<>0<><>::
+Global.gd::GDScript::4124925964996778456::1763694714::0::1::::<>Node<><>0<>0<><>::
+Level1.gd::GDScript::4293096483897351567::1763767450::0::1::::<>Node2D<><>0<>0<><>::
+MainMenu.gd::GDScript::4454565477967894828::1763603859::0::1::::<>CanvasLayer<><>0<>0<><>::
+PauseMenu.gd::GDScript::8640458088584185665::1763769984::0::1::::<>Control<><>0<>0<><>::
+player.gd::GDScript::9098516790819255667::1763767450::0::1::::<>CharacterBody2D<><>0<>0<><>::
+RangedRat.gd::GDScript::3827547447533515427::1763767450::0::1::::<>Area2D<><>0<>0<><>::
+Rat.gd::GDScript::6129811919955660623::1763771200::0::1::::<>Area2D<><>0<>0<><>::
+RatProjectile.gd::GDScript::6142316719415155912::1763696726::0::1::::<>Area2D<><>0<>0<><>::
+shovel.gd::GDScript::4153899735463982278::1763767450::0::1::::<>Area2D<><>0<>0<><>::
+WaveManager.gd::GDScript::6654324805241568233::1763769968::0::1::::<>Node<><>0<>0<><>::

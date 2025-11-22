@@ -1,0 +1,11 @@
+res://scene/Bullet.tscn::598bc634ac31560b4db3c492e9267f8e::1763515475::res://.godot/exported/133200997/export-53f5ad9680a1678ab1912c04396775f7-Bullet.scn
+res://scene/GameOver.tscn::1a7c10d041806cee5251216c7e6a7705::1763773098::res://.godot/exported/133200997/export-8ebb509ff04fd9420af61e5b4783a3a4-GameOver.scn
+res://scene/Level 1.tscn::0cc9001a19f6b64c292855a8b6756639::1763697470::res://.godot/exported/133200997/export-92ba907d6fb8c5b49cafaf1d5e581d69-Level 1.scn
+res://scene/MainMenu.tscn::eb0af69bb8b1473f22b6492d7495d7de::1763773339::res://.godot/exported/133200997/export-7bde39032c5b300b6614da6cb7177a29-MainMenu.scn
+res://scene/PauseMenu.tscn::83a391993e9f6d88f57c60524f48e103::1763772964::res://.godot/exported/133200997/export-0eb84d95bbd8f91164844d7b4d32db7f-PauseMenu.scn
+res://scene/player_1.tscn::f2d2c74d06e5461547ae6ecb07347f94::1763772989::res://.godot/exported/133200997/export-b0f62cdb7e1ca7d4bec50e7241c30f12-player_1.scn
+res://scene/RangedRat.tscn::17050452f334edf2b35218d6376be483::1763695301::res://.godot/exported/133200997/export-0859fabe2e525ac7907bd97d7e1e0c0f-RangedRat.scn
+res://scene/Rat.tscn::7d592cc0c47473e5f4e6fcf1bb0ad09e::1763771200::res://.godot/exported/133200997/export-d34e2689a011f5637c7e817f80299328-Rat.scn
+res://scene/RatProjectile.tscn::9ec0470487333d042defb22fb8d653cd::1763698386::res://.godot/exported/133200997/export-a128adf29b506d720c1abf36a318b5ef-RatProjectile.scn
+res://scene/Shovel.tscn::f04a5311ce064718379d1d304c247537::1763609667::res://.godot/exported/133200997/export-84f1da1f6cd4af77d9f39a6bc2d15302-Shovel.scn
+res://scene/ui.tscn::ff6b82ef7a72a144af1258eacba0b3d1::1763339169::res://.godot/exported/133200997/export-c6e65ddc9a63fe988b288f299b1af800-ui.scn

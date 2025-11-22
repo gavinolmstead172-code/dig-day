@@ -1,0 +1,10 @@
+res://scene/RatProjectile.tscn
+res://scripts/RangedRat.gd
+res://scene/RangedRat.tscn
+res://scripts/bullet.gd
+res://scripts/player.gd
+res://scripts/RatProjectile.gd
+res://scene/Bullet.tscn
+res://scripts/Rat.gd
+res://scripts/shovel.gd
+res://scripts/WaveManager.gd
