@@ -1,0 +1,27 @@
+[gd_scene load_steps=5 format=3 uid="uid://c5rty4dufp78"]
+
+[ext_resource type="Script" uid="uid://ctlldvnrdu224" path="res://scripts/Rat.gd" id="1_kk6rq"]
+[ext_resource type="Texture2D" uid="uid://cdkeqk0ofr6ih" path="res://assets/textures/Adobe Express - file (4).png" id="2_jugsf"]
+[ext_resource type="AudioStream" uid="uid://6780lj3qxqll" path="res://assets/sound effects/Bite.wav" id="3_jugsf"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_vqotf"]
+size = Vector2(76, 49)
+
+[node name="Area2D" type="Area2D"]
+script = ExtResource("1_kk6rq")
+
+[node name="sprite" type="Sprite2D" parent="."]
+position = Vector2(28, 30)
+scale = Vector2(0.7383177, 0.7222222)
+texture = ExtResource("2_jugsf")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(36, 45.5)
+shape = SubResource("RectangleShape2D_vqotf")
+
+[node name="BiteSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_jugsf")
+volume_db = -17.21
+
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

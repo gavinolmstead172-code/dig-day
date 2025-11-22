@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://dx4veyh6agedy"]
+
+[ext_resource type="Script" uid="uid://busdfahqnw21d" path="res://scripts/RangedRat.gd" id="1_6u780"]
+[ext_resource type="Texture2D" uid="uid://4yv8qbwukiul" path="res://assets/textures/250px-Giant_rat2.svg" id="2_3d8qw"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qg2f3"]
+size = Vector2(89.5, 51)
+
+[node name="RangedRat" type="Area2D"]
+script = ExtResource("1_6u780")
+
+[node name="sprite" type="Sprite2D" parent="."]
+scale = Vector2(1.3939394, 1.3088236)
+texture = ExtResource("2_3d8qw")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(1.25, 19.5)
+shape = SubResource("RectangleShape2D_qg2f3")
+
+[node name="ShootTimer" type="Timer" parent="."]
+
+[connection signal="timeout" from="ShootTimer" to="." method="_on_shoot_timer_timeout"]

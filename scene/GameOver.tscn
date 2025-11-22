@@ -1,0 +1,58 @@
+[gd_scene load_steps=2 format=3 uid="uid://fjykr08viths"]
+
+[ext_resource type="Script" uid="uid://db4gheho3vfab" path="res://scripts/GameOver.gd" id="1_0mfy4"]
+
+[node name="GameOver" type="CanvasLayer"]
+script = ExtResource("1_0mfy4")
+
+[node name="Title" type="Label" parent="."]
+offset_left = 794.0
+offset_top = 24.0
+offset_right = 1171.0
+offset_bottom = 179.0
+theme_override_font_sizes/font_size = 63
+text = "GAME OVER"
+
+[node name="KillsLabel" type="Label" parent="."]
+offset_left = 830.0
+offset_top = 325.0
+offset_right = 1141.0
+offset_bottom = 420.0
+
+[node name="WaveLabel" type="Label" parent="."]
+offset_left = 831.0
+offset_top = 402.0
+offset_right = 1034.0
+offset_bottom = 490.0
+
+[node name="HighKillsLabel" type="Label" parent="."]
+anchors_preset = -1
+anchor_right = 0.094000004
+anchor_bottom = 0.064
+offset_left = 829.0
+offset_top = 159.0
+offset_right = 857.4
+offset_bottom = 149.0
+
+[node name="HighWavesLabel" type="Label" parent="."]
+offset_left = 829.0
+offset_top = 235.0
+offset_right = 1117.0
+offset_bottom = 305.0
+
+[node name="RetryButton" type="Button" parent="."]
+offset_left = 799.0
+offset_top = 509.0
+offset_right = 1169.0
+offset_bottom = 606.0
+text = "RETRY"
+
+[node name="QuitButton" type="Button" parent="."]
+offset_left = 801.0
+offset_top = 629.0
+offset_right = 1169.0
+offset_bottom = 737.0
+text = "QUIT"
+
+[connection signal="pressed" from="RetryButton" to="." method="_on_Retrybutton_pressed"]
+[connection signal="pressed" from="QuitButton" to="." method="_on_quit_button_pressed"]

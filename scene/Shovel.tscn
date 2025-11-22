@@ -1,0 +1,32 @@
+[gd_scene load_steps=6 format=3 uid="uid://51hrjtjm8c8u"]
+
+[ext_resource type="Script" uid="uid://b0ggee0j5y2go" path="res://scripts/shovel.gd" id="1_1gppw"]
+[ext_resource type="Texture2D" uid="uid://cv4vy56540ig4" path="res://assets/textures/Adobe Express - file (5).png" id="2_guv5w"]
+[ext_resource type="AudioStream" uid="uid://bsw1ywa7t5xrm" path="res://assets/sound effects/recording2.wav" id="3_83k15"]
+[ext_resource type="AudioStream" uid="uid://dyfntvnxjn8b6" path="res://assets/sound effects/hit.wav" id="4_3nb8m"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_83k15"]
+size = Vector2(42, 151)
+
+[node name="Shovel" type="Area2D"]
+script = ExtResource("1_1gppw")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-10.999985, -4.4999847)
+scale = Vector2(0.64615387, 0.4911765)
+texture = ExtResource("2_guv5w")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-5, -1.5000153)
+shape = SubResource("RectangleShape2D_83k15")
+
+[node name="ThrowSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_83k15")
+
+[node name="ReturnSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_83k15")
+
+[node name="HitSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_3nb8m")
+
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]

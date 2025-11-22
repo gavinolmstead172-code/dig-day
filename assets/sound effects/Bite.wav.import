@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://6780lj3qxqll"
+path="res://.godot/imported/Bite.wav-8e7d15294eb0962c9614934da45791af.sample"
+
+[deps]
+
+source_file="res://assets/sound effects/Bite.wav"
+dest_files=["res://.godot/imported/Bite.wav-8e7d15294eb0962c9614934da45791af.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

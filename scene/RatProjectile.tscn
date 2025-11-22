@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=3 uid="uid://textmq5aicbu"]
+
+[ext_resource type="Script" uid="uid://ctrncaftexdqe" path="res://scripts/RatProjectile.gd" id="1_r06oe"]
+[ext_resource type="Texture2D" uid="uid://b7wy2xd1thj2d" path="res://assets/textures/costume1.png" id="2_o7ekw"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ucrf4"]
+size = Vector2(30, 31)
+
+[node name="RatProjectile" type="Area2D"]
+script = ExtResource("1_r06oe")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, 4.7683716e-07)
+scale = Vector2(0.5089286, 0.51096493)
+texture = ExtResource("2_o7ekw")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_ucrf4")
+
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

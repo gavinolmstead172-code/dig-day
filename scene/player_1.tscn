@@ -1,0 +1,42 @@
+[gd_scene load_steps=7 format=3 uid="uid://d0xcudot4sncl"]
+
+[ext_resource type="Script" uid="uid://d2vniia2fjxa6" path="res://scripts/player.gd" id="1_178uw"]
+[ext_resource type="Texture2D" uid="uid://dred3hv8gfxpv" path="res://assets/textures/image_2025-11-16_104009527 (1) (1).png" id="2_rayb1"]
+[ext_resource type="Texture2D" uid="uid://c6bni5q22hp8i" path="res://assets/textures/Adobe Express - file (1).png" id="3_178uw"]
+[ext_resource type="AudioStream" uid="uid://b4ktb83u511cv" path="res://assets/sound effects/gun.wav" id="4_l67vh"]
+[ext_resource type="AudioStream" uid="uid://b7au2s66sco2n" path="res://assets/sound effects/empty ammo.wav" id="5_4b1x7"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_178uw"]
+size = Vector2(144.93799, 68.55039)
+
+[node name="player1" type="CharacterBody2D" groups=["Player"]]
+position = Vector2(908, 477)
+script = ExtResource("1_178uw")
+
+[node name="body1" type="Sprite2D" parent="."]
+position = Vector2(0.99999964, -1)
+scale = Vector2(0.6254746, 0.6847705)
+texture = ExtResource("2_rayb1")
+
+[node name="gun1" type="Sprite2D" parent="."]
+show_behind_parent = true
+position = Vector2(9.999992, 34.999996)
+scale = Vector2(0.42987305, 0.23156942)
+texture = ExtResource("3_178uw")
+flip_h = true
+
+[node name="muzzle" type="Node2D" parent="gun1"]
+position = Vector2(108.93787, -16.550842)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-2.25, 5.5)
+scale = Vector2(0.60370636, 0.6564515)
+shape = SubResource("RectangleShape2D_178uw")
+
+[node name="ShootSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_l67vh")
+volume_db = -30.242
+
+[node name="EmptySound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("5_4b1x7")
+volume_db = -18.065

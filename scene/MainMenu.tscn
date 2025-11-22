@@ -1,0 +1,32 @@
+[gd_scene load_steps=2 format=3 uid="uid://dchmbvpvqqrht"]
+
+[ext_resource type="Script" uid="uid://b4p3bpiostg2g" path="res://scripts/MainMenu.gd" id="1_nn17b"]
+
+[node name="MainMenu" type="CanvasLayer"]
+script = ExtResource("1_nn17b")
+
+[node name="PlayButton" type="Button" parent="."]
+anchors_preset = -1
+anchor_right = 0.004
+anchor_bottom = 0.008
+offset_left = 815.0
+offset_top = 204.0
+offset_right = 1067.4
+offset_bottom = 290.0
+text = "Play"
+
+[node name="QuitButton" type="Button" parent="."]
+offset_left = 881.0
+offset_top = 312.0
+offset_right = 1011.0
+offset_bottom = 383.0
+text = "Quit"
+
+[node name="Title" type="Label" parent="."]
+offset_left = 841.0
+offset_top = 45.0
+offset_right = 1041.0
+offset_bottom = 114.0
+theme_override_font_sizes/font_size = 50
+text = "DIG DAY
+beta"

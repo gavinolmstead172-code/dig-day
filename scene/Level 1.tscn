@@ -1,0 +1,93 @@
+[gd_scene load_steps=11 format=3 uid="uid://cw87k2iqtk21v"]
+
+[ext_resource type="Texture2D" uid="uid://ephskbbt46ur" path="res://assets/textures/Screenshot 2025-11-16 160030.png" id="1_gxojr"]
+[ext_resource type="Script" uid="uid://c12n00qh06vmv" path="res://scripts/WaveManager.gd" id="1_qbgl0"]
+[ext_resource type="Script" uid="uid://b2fuw3w2owh88" path="res://scripts/Level1.gd" id="1_xpo3w"]
+[ext_resource type="AudioStream" uid="uid://cat0sh7kyy7pd" path="res://assets/sound effects/Call of Duty Zombies New Round - Sound Effect (HD).mp3" id="2_0140a"]
+[ext_resource type="PackedScene" uid="uid://d0xcudot4sncl" path="res://scene/player_1.tscn" id="2_osfm5"]
+[ext_resource type="Script" uid="uid://cb84cy433ehm4" path="res://scripts/ammo_ui.gd" id="3_gxojr"]
+[ext_resource type="Texture2D" uid="uid://c2oedtt3uvcxt" path="res://assets/textures/Adobe Express - file (3).png" id="4_qbgl0"]
+[ext_resource type="AudioStream" uid="uid://cuefml8j2sd3k" path="res://assets/sound effects/Cymbal Echo.wav" id="7_qrjxu"]
+[ext_resource type="PackedScene" uid="uid://cdjb6y6iacwpq" path="res://scene/PauseMenu.tscn" id="8_bn0vc"]
+
+[sub_resource type="QuadMesh" id="QuadMesh_qbgl0"]
+
+[node name="Level1" type="Node2D"]
+script = ExtResource("1_xpo3w")
+
+[node name="WaveSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_0140a")
+volume_db = -20.037
+
+[node name="player1" parent="." instance=ExtResource("2_osfm5")]
+top_level = true
+scale = Vector2(1.002016, 1.00228)
+
+[node name="WaveManager" type="Node" parent="."]
+script = ExtResource("1_qbgl0")
+
+[node name="UI" type="CanvasLayer" parent="."]
+script = ExtResource("3_gxojr")
+
+[node name="AmmoLabel" type="Label" parent="UI"]
+offset_left = 26.0
+offset_top = 22.0
+offset_right = 288.0
+offset_bottom = 144.0
+theme_override_font_sizes/font_size = 35
+
+[node name="Heart1" type="TextureRect" parent="UI"]
+offset_left = 728.0
+offset_top = 56.0
+offset_right = 832.0
+offset_bottom = 177.0
+texture = ExtResource("4_qbgl0")
+expand_mode = 1
+
+[node name="Heart2" type="TextureRect" parent="UI"]
+offset_left = 903.4086
+offset_top = 52.51184
+offset_right = 1007.4086
+offset_bottom = 173.51184
+texture = ExtResource("4_qbgl0")
+expand_mode = 1
+
+[node name="Heart3" type="TextureRect" parent="UI"]
+offset_left = 1078.0
+offset_top = 52.0
+offset_right = 1182.0
+offset_bottom = 173.00002
+texture = ExtResource("4_qbgl0")
+expand_mode = 1
+
+[node name="KillLabel" type="Label" parent="UI"]
+offset_left = 2.0
+offset_top = 120.0
+offset_right = 132.0
+offset_bottom = 240.0
+theme_override_font_sizes/font_size = 45
+
+[node name="WaveLabel" type="Label" parent="UI"]
+visible = false
+offset_left = 688.0
+offset_top = 226.0
+offset_right = 1188.0
+offset_bottom = 666.0
+theme_override_font_sizes/font_size = 70
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Map" type="MeshInstance2D" parent="."]
+position = Vector2(953.5, 543.4999)
+scale = Vector2(-1929, 1097)
+mesh = SubResource("QuadMesh_qbgl0")
+texture = ExtResource("1_gxojr")
+metadata/_edit_lock_ = true
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("7_qrjxu")
+volume_db = -17.835
+autoplay = true
+mix_target = 1
+
+[node name="PauseMenu" parent="." instance=ExtResource("8_bn0vc")]
